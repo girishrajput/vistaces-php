@@ -271,7 +271,7 @@
     <header class="sticky top-0 z-50 bg-white border-b border-slate-200/80 index-50">
         <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="#" class="flex items-center space-x-3 group">
-                <img src="http://localhost/vistaces-php/images/logo.png" alt="Vista Consulting Engineers"
+                <img src="images/logo.png" alt="Vista Consulting Engineers"
                     class="h-16 w-auto transition-transform group-hover:scale-105">
             </a>
 
