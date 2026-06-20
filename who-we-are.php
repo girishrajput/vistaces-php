@@ -1,8 +1,6 @@
 <?php include 'header.php'; ?>
 
-
-
-    <section class="bg-[#0b2a4a] text-white py-16 relative overflow-hidden">
+<section class="bg-[#0b2a4a] text-white py-16 relative overflow-hidden">
     <div class="absolute inset-0 bg-cover bg-center opacity-10 mixed-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070');"></div>
     <div class="max-w-[1500px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 text-center space-y-2">
         <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">Who We Are</h1>
@@ -22,16 +20,15 @@
                 Our Story
             </div>
             <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight leading-tight">
-                Engineering Solutions Rooted in <br />
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#0b2a4a] to-[#1a4b6d]">Innovation &amp; Expertise</span>
+                Vista Consulting Engineers, LLC
             </h2>
-            <div class="space-y-4 text-slate-600 leading-relaxed">
+            <div class="space-y-4 text-slate-600 leading-relaxed text-justify">
                 <p>
-                    Founded in Oakland, CA, in 2018, <strong class="font-semibold text-slate-900">Vista Consulting Engineers, LLC (VCEs)</strong> is a premier engineering consulting firm specializing in engineering and construction management services. We provide fully integrated structural, architectural, MEP, and construction management parameters to clients globally.
+                    Founded in Oakland, CA, in 2018, <strong class="font-semibold text-slate-900">Vista Consulting Engineers, LLC. (VCEs)</strong> is an engineering consulting firm specializing in engineering and construction management services that provide fully integrated structural, architectural, MEP, and construction management services to clients in the construction industry worldwide.
                 </p>
                 <p>
-                    Now based in <strong class="font-semibold text-slate-900">Katy, Texas</strong>, we seamlessly collaborate with clients on residential, commercial, and industrial construction milestones across the globe. We prioritize resolving our clients' complex challenges through continuous operational innovation, diversity of perspective, and unparalleled industry execution.
-                </p> 
+                    Based in <strong class="font-semibold text-slate-900">Katy, Texas</strong>, we collaborate with clients on residential, commercial, and industrial construction projects across the globe. We prioritize resolving our clients' challenges through innovation, diversity of perspective, and unparalleled industry expertise.
+                </p>
             </div>
         </div>
 
@@ -56,10 +53,10 @@
             
             <div class="lg:col-span-7 space-y-8">
                 <div class="space-y-3">
-                    <div class="text-sm font-bold text-blue-600 uppercase tracking-widest flex items-center gap-2">
-                        <span class="w-6 h-0.5 bg-blue-600 inline-block"></span> Know More
+                    <div class="text-sm font-bold text-orange-600 uppercase tracking-widest flex items-center gap-2">
+                        <span class="w-6 h-0.5 bg-orange-600 inline-block"></span> Know More
                     </div>
-                    <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">About Our Foundation</h2>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">About Us</h2>
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -69,8 +66,8 @@
                             <div class="w-10 h-10 rounded-xl bg-orange-500/10 text-orange-600 flex items-center justify-center text-base"><i class="fa-solid fa-bullseye"></i></div>
                             <h3 class="font-bold text-slate-900 text-base">Mission Statement</h3>
                         </div>
-                        <p class="text-sm text-slate-500 leading-relaxed">
-                            To provide quality, cost-effective, and sustainable engineering and construction management workflows that foster socioeconomic growth, ensure public safety, and satisfy our clients' goals.
+                        <p class="text-sm text-slate-500 leading-relaxed text-justify">
+                            Our mission is to provide quality, cost-effective, sustainable engineering and construction management services that faster socioeconomic development, ensure public welfare, and satisfy clients' needs.
                         </p>
                     </div>
 
@@ -79,8 +76,8 @@
                             <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-600 flex items-center justify-center text-base"><i class="fa-solid fa-route"></i></div>
                             <h3 class="font-bold text-slate-900 text-base">Our Approach</h3>
                         </div>
-                        <p class="text-sm text-slate-500 leading-relaxed">
-                            Prioritizing customer satisfaction through tailored structural parameters, strict commitment to quality standards, and building long-term mutual partnerships built on professionalism.
+                        <p class="text-sm text-slate-500 leading-relaxed text-justify">
+                            Customer satisfaction over the competition, engineering solutions to clients' challenges, dedication to innovation, focus on organizational principles and processes, diversity of perspectives than emphasis on conformity, mutual partnership, and a strong commitment to quality, efficiency, and professionalism.
                         </p>
                     </div>
 
@@ -89,8 +86,8 @@
                             <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-base"><i class="fa-solid fa-eye"></i></div>
                             <h3 class="font-bold text-slate-900 text-base">Our Vision</h3>
                         </div>
-                        <p class="text-sm text-slate-500 leading-relaxed">
-                            To be recognized as the world's most innovative solution provider across the engineering sphere, building a multinational infrastructure that consistently drives global development.
+                        <p class="text-sm text-slate-500 leading-relaxed text-justify">
+                            Our vision is to be the world's most innovative solution provider for every engineering and construction management challenge and to build an engineering multinational platform that improves clients' diverse experiences.
                         </p>
                     </div>
 
@@ -99,8 +96,8 @@
                             <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center text-base"><i class="fa-solid fa-award"></i></div>
                             <h3 class="font-bold text-slate-900 text-base">Our Experience</h3>
                         </div>
-                        <p class="text-sm text-slate-500 leading-relaxed">
-                            A diversified roster of industry specialists leveraging over 16+ years of specialized engineering fields to safely turn the most ambitious layout ideas into physical reality.
+                        <p class="text-sm text-slate-500 leading-relaxed text-justify">
+                            Diversified professionals with over 16+ years of experience in residential, commercial, and industrial construction, we have what it takes to turn the most ambitious project ideas into reality.
                         </p>
                     </div>
 
@@ -127,9 +124,7 @@
             </div>
 
         </div>
-
     </div>
-</section>  
-
+</section>
 
    <?php include 'footer.php'; ?>

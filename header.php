@@ -14,229 +14,10 @@
         body {
             font-family: 'Inter', sans-serif;
         }
-    </style>
-    <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap');
 
         * {
             font-family: 'Inter', sans-serif;
-        }
-
-        .gradient-accent {
-            background: linear-gradient(135deg, #0b2a4a 0%, #1a4b6d 100%);
-        }
-
-        .gradient-cta {
-            background: linear-gradient(135deg, #1a4b6d 0%, #2a7a9c 100%);
-        }
-
-        .gradient-hero {
-            background: linear-gradient(135deg, #0b2a4a 0%, #0f3a5e 100%);
-        }
-
-        .gradient-gold {
-            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-        }
-
-        .hover-scale {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .hover-scale:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px -12px rgba(11, 42, 74, 0.25);
-        }
-
-        .service-tag {
-            transition: all 0.25s ease;
-        }
-
-        .service-tag:hover {
-            background: #1a4b6d;
-            color: #ffffff;
-            transform: translateX(4px);
-        }
-
-        .quick-link {
-            transition: all 0.2s ease;
-            position: relative;
-        }
-
-        .quick-link::after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: #fbbf24;
-            transition: width 0.3s ease;
-        }
-
-        .quick-link:hover::after {
-            width: 100%;
-        }
-
-        .quick-link:hover {
-            color: #fbbf24;
-        }
-
-        .contact-icon {
-            transition: all 0.3s ease;
-        }
-
-        .contact-item:hover .contact-icon {
-            color: #fbbf24;
-            transform: scale(1.1);
-        }
-
-        .border-glow {
-            border-image: linear-gradient(135deg, #1a4b6d, #fbbf24) 1;
-        }
-
-        .social-icon {
-            transition: all 0.3s ease;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 9999px;
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        .social-icon:hover {
-            background: #ff6900;
-            color: #ffffff !important;
-            transform: translateY(-3px);
-            border-color: #ff6900;
-        }
-
-        .cta-pulse {
-            animation: pulse-soft 2.5s ease-in-out infinite;
-        }
-
-        @keyframes pulse-soft {
-
-            0%,
-            100% {
-                box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.3);
-            }
-
-            50% {
-                box-shadow: 0 0 0 16px rgba(251, 191, 36, 0);
-            }
-        }
-
-        .footer-divider {
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
-            height: 1px;
-        }
-
-        /* scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: #0b2a4a;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #fbbf24;
-            border-radius: 8px;
-        }
-
-        .gold-glow {
-            box-shadow: 0 0 30px rgba(251, 191, 36, 0.15);
-        }
-
-        .nav-link {
-            transition: color 0.2s ease;
-        }
-
-        .nav-link:hover {
-            color: #fbbf24;
-        }
-
-        .badge-gold {
-            background: rgba(251, 191, 36, 0.12);
-            border: 1px solid rgba(251, 191, 36, 0.2);
-            color: #fbbf24;
-        }
-
-        .btn-gold {
-            background: #fbbf24;
-            color: #0b2a4a;
-            transition: all 0.3s ease;
-        }
-
-        .btn-gold:hover {
-            background: #f59e0b;
-            color: #0b2a4a;
-            transform: translateY(-2px);
-            box-shadow: 0 12px 30px rgba(251, 191, 36, 0.25);
-        }
-
-        .btn-outline-gold {
-            border: 1px solid rgba(251, 191, 36, 0.3);
-            color: #fbbf24;
-            transition: all 0.3s ease;
-        }
-
-        .btn-outline-gold:hover {
-            background: #fbbf24;
-            color: #0b2a4a;
-            border-color: #fbbf24;
-        }
-
-        .text-gold {
-            color: #fbbf24;
-        }
-
-        .bg-gold-soft {
-            background: rgba(251, 191, 36, 0.06);
-        }
-
-        .border-gold-soft {
-            border-color: rgba(251, 191, 36, 0.15);
-        }
-
-        .hover-gold {
-            transition: color 0.2s ease;
-        }
-
-        .hover-gold:hover {
-            color: #fbbf24;
-        }
-
-        .card-hover {
-            transition: all 0.3s ease;
-        }
-
-        .card-hover:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px -12px rgba(11, 42, 74, 0.15);
-            border-color: rgba(251, 191, 36, 0.3);
-        }
-
-        .indicator-bar {
-            transition: all 0.3s ease;
-        }
-
-        .indicator-bar.active {
-            background: #fbbf24;
-            width: 32px;
-        }
-
-        .indicator-bar.inactive {
-            background: rgba(255, 255, 255, 0.25);
-            width: 12px;
-        }
-
-        .indicator-bar.inactive:hover {
-            background: rgba(255, 255, 255, 0.4);
         }
     </style>
 </head>
@@ -244,53 +25,79 @@
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
 
     <div class="bg-[#0091cc] text-slate-400 text-sm py-2 px-4 border-b border-slate-800 hidden md:block">
-        <div class="max-w-[1500px] mx-auto flex justify-between items-center  px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[1500px] mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
             <div class="flex items-center space-x-4">
                 <a href="tel:8324900982" class="text-white font-medium hover:text-blue-400 transition"><i
                         class="fa-solid fa-phone text-white mr-2"></i>(832)-490-0982</a>
                 <span class="text-white">|</span>
-                <span
-                    class="bg-blue-500/10 text-white px-2 py-0.5 rounded border border-blue-500/20 font-mono tracking-wide">24/7
-                    Services</span>
+                <span class="bg-blue-500/10 text-white px-2 py-0.5 rounded border border-blue-500/20 font-mono tracking-wide">24/7 Services</span>
             </div>
 
             <div class="flex items-center space-x-6">
                 <div class="flex gap-6">
                     <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
-                    <!-- <a href="#" class="text-white"><i class="fab fa-x"></i></a> -->
                     <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
                     <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <header class="sticky top-0 z-50 bg-white border-b border-slate-200/80 index-50">
+    <header class="sticky top-0 z-50 bg-white border-b border-slate-200/80">
         <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center space-x-3 group">
+            <a href="index.php" class="flex items-center space-x-3 group">
                 <img src="images/logo.png" alt="Vista Consulting Engineers"
                     class="h-16 w-auto transition-transform group-hover:scale-105">
             </a>
 
-            <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-600">
-                <a href="#" class="text-[#ff5e15] transition">Home</a>
-                <a href="#about" class="hover:text-[#ff5e15] transition">Who We Are</a>
-                <a href="#services" class="hover:text-[#ff5e15] transition">Services</a>
-                <a href="#bim-advantage" class="hover:text-[#ff5e15] transition">Project</a>
-                <a href="#blog" class="hover:text-[#ff5e15] transition">Blog</a>
-                <a href="#contact" class="hover:text-[#ff5e15] transition">Contact</a>
-                <a href="#faqs" class="hover:text-[#ff5e15] transition">FAQs</a>
+            <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-600 h-full">
+                <a href="index.php" class="text-[#ff5e15] transition">Home</a>
+                <a href="who-we-are.php" class="hover:text-[#ff5e15] transition">Who We Are</a>
+                
+                <div class="relative group flex items-center h-full cursor-pointer">
+                    <a href="services.php" class="hover:text-[#ff5e15] transition flex items-center gap-1 py-4">
+                        Services 
+                        <i class="fa-solid fa-chevron-down text-[10px] transition-transform duration-300 group-hover:rotate-180"></i>
+                    </a>
+                    
+                    <div class="absolute top-[100%] left-1/2 -translate-x-1/2 w-64 bg-white border border-slate-200 shadow-xl rounded-xl py-3 opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 z-50">
+
+                    <a href="civil-engineering.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">                            
+                            <span>Civil Engineering</span>
+                        </a>
+                        <a href="structural-engineering.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">                            
+                            <span>Structural Engineering</span>
+                        </a>
+                        <a href="project-management.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">
+                            <span>Project Management</span>
+                        </a>
+                        <a href="construction-documents.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">                           
+                            <span>Construction Documents</span>
+                        </a>
+                        <a href="bim-design-integration.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">                           
+                            <span>BIM and Design Integration</span>
+                        </a>
+                        <a href="surveying-landscape-design.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">                           
+                            <span>Surveying &amp; Landscape</span>
+                        </a>
+                        <a href="as-built-drawings.php" class="flex items-center gap-3 px-4 py-2.5 text-slate-700 hover:bg-slate-50 hover:text-[#ff5e15] transition">                            
+                            <span>As-Built Drawings</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="projects.php" class="hover:text-[#ff5e15] transition">Project</a>
+                <a href="blog.php" class="hover:text-[#ff5e15] transition">Blog</a>
+                <a href="contact.php" class="hover:text-[#ff5e15] transition">Contact</a>
+                <a href="faqs.php" class="hover:text-[#ff5e15] transition">FAQs</a>
             </nav>
 
             <div class="hidden sm:flex items-center space-x-4">
-                <a href="#contact"
+                <a href="contact.php"
                     class="w-full md:w-auto inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm uppercase tracking-wider font-mono h-12 px-8 rounded-lg transition duration-300 shadow-lg shadow-orange-500/10 group">
                     Book Consultation
-                    <i
-                        class="fa-solid fa-arrow-right ml-2 text-[12px] group-hover:translate-x-0.5 transition-transform"></i>
+                    <i class="fa-solid fa-arrow-right ml-2 text-[12px] group-hover:translate-x-0.5 transition-transform"></i>
                 </a>
             </div>
 

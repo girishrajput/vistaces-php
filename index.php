@@ -24,7 +24,7 @@
                         to deliver lasting impact.
                     </p>
                     <div class="pt-4">
-                        <a href="#contact"
+                        <a href="contact.php"
                             class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-medium text-sm sm:text-base h-12 px-8 rounded-lg shadow-lg shadow-[#fbbf24]/20 transition-all duration-300 hover:shadow-[#fbbf24]/40 active:scale-98 group">
                             Book a Consultation
                             <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
@@ -55,7 +55,7 @@
                         sustainable local development rules.
                     </p>
                     <div class="pt-4">
-                        <a href="#about"
+                        <a href="who-we-are.php"
                             class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-medium text-sm sm:text-base h-12 px-8 rounded-lg shadow-lg shadow-[#fbbf24]/20 transition-all duration-300 active:scale-98 group">
                             Learn More
                             <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
@@ -86,7 +86,7 @@
                         standards across every structural milestone.
                     </p>
                     <div class="pt-4">
-                        <a href="#services"
+                        <a href="services.php"
                             class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-medium text-sm sm:text-base h-12 px-8 rounded-lg shadow-lg shadow-[#fbbf24]/20 transition-all duration-300 active:scale-98 group">
                             Our Services
                             <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="pt-2">
-                    <a href="#services"
+                    <a href="services.php"
                         class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-medium text-sm h-11 px-6 rounded-lg shadow-lg shadow-orange-500/10 transition-all group">
                         Explore Our Services
                         <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>

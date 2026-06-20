@@ -115,27 +115,55 @@
                         known for its unmatched expertise and commitment to excellence.
                     </p>
                     <h4 class="text-sm font-semibold uppercase tracking-[0.15em] text-white mt-5">Follow Us</h4>
-                    <div class="flex gap-3 mt-2">
-                        <a href="#" class="social-icon text-white/70"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-icon text-white/70"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon text-white/70"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon text-white/70"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-icon text-white/70"><i class="fab fa-instagram"></i></a>
-                    </div>
+                   
+              <div class="flex flex-wrap gap-3 mt-4 items-center">
+    <a href="#" class="group relative inline-flex items-center justify-center p-0 rounded-full bg-slate-100 border border-slate-200/60 shadow-xs hover:scale-105 transition-transform duration-300">
+        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#3b5998] text-white shadow-sm">
+            <i class="fab fa-facebook-f text-lg pl-0.5"></i>
+        </div>
+    </a>
+    
+    <a href="https://x.com/home" target="_blank" class="group relative inline-flex items-center justify-center p-0 rounded-full bg-slate-100 border border-slate-200/60 shadow-xs hover:scale-105 transition-transform duration-300">
+        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#000000] text-white shadow-sm">
+            <svg width="16" height="16" viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"/>
+</svg>
+
+        </div>
+    </a>
+    
+    <a href="#" class="group relative inline-flex items-center justify-center p-0 rounded-full bg-slate-100 border border-slate-200/60 shadow-xs hover:scale-105 transition-transform duration-300">
+        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white shadow-sm">
+            <i class="fab fa-instagram text-lg"></i>
+        </div>
+    </a>
+    
+    <a href="#" class="group relative inline-flex items-center justify-center p-0 rounded-full bg-slate-100 border border-slate-200/60 shadow-xs hover:scale-105 transition-transform duration-300">
+        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#25d366] text-white shadow-sm">
+            <i class="fab fa-whatsapp text-lg pl-0.5"></i>
+        </div>
+    </a>
+
+    <a href="#" class="group relative inline-flex items-center justify-center p-0 rounded-full bg-slate-100 border border-slate-200/60 shadow-xs hover:scale-105 transition-transform duration-300">
+        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#0077b5] text-white shadow-sm">
+            <i class="fab fa-linkedin-in text-lg"></i>
+        </div>
+    </a>
+</div>
                 </div>
 
                 <!-- Quick Links -->
                 <div>
                     <h4 class="text-sm font-semibold uppercase tracking-[0.15em] text-white mb-5">Quick Links</h4>
                     <ul class="space-y-2.5 text-sm">
-                        <li><a href="#" class="quick-link text-white/70 hover:text-white inline-block">Home</a></li>
-                        <li><a href="#" class="quick-link text-white/70 hover:text-white inline-block">Who we are</a>
+                        <li><a href="index.php" class="quick-link text-white/70 hover:text-white inline-block">Home</a></li>
+                        <li><a href="who-we-are.php" class="quick-link text-white/70 hover:text-white inline-block">Who we are</a>
                         </li>
-                        <li><a href="#" class="quick-link text-white/70 hover:text-white inline-block">Services</a></li>
-                        <li><a href="#" class="quick-link text-white/70 hover:text-white inline-block">Project</a></li>
-                        <li><a href="#" class="quick-link text-white/70 hover:text-white inline-block">Contact Us</a>
+                        <li><a href="services.php" class="quick-link text-white/70 hover:text-white inline-block">Services</a></li>
+                        <li><a href="projects.php" class="quick-link text-white/70 hover:text-white inline-block">Project</a></li>
+                        <li><a href="contact.php" class="quick-link text-white/70 hover:text-white inline-block">Contact Us</a>
                         </li>
-                        <li><a href="#" class="quick-link text-white/70 hover:text-white inline-block">SiteMap</a></li>
+                        <li><a href="sitemap.php" class="quick-link text-white/70 hover:text-white inline-block">SiteMap</a></li>
                     </ul>
                 </div>
 
@@ -143,24 +171,25 @@
                 <div>
                     <h4 class="text-sm font-semibold uppercase tracking-[0.15em] text-white mb-5">Services</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#"
+                        <li><a href="project-management.php"
                                 class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">Project
                                 Management</a></li>
-                        <li><a href="#"
+                        <li><a href="construction-documents.php"
                                 class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">Construction
                                 Documents</a></li>
-                        <li><a href="#" class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">BIM
+                        <li><a href="bim-design-integration.php"
+                                class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">BIM
                                 &amp; Design Integration</a></li>
-                        <li><a href="#"
+                        <li><a href="as-built-drawings.php"
                                 class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">As-Built
                                 Drawings</a></li>
-                        <li><a href="#"
+                        <li><a href="surveying-landscape-design.php"
                                 class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">Surveying /
                                 Landscape Design</a></li>
-                        <li><a href="#"
+                        <li><a href="civil-engineering.php"
                                 class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">Civil
                                 Engineering</a></li>
-                        <li><a href="#"
+                        <li><a href="structural-engineering.php"
                                 class="service-tag text-white/70 hover:text-white inline-block px-0 py-0.5">Structural
                                 Engineering</a></li>
                     </ul>
@@ -197,11 +226,11 @@
                 </div>
             </div>
 
-            <div class="footer-divider my-10"></div>
+            <div class="footer-divider my-10 border-t border-white/10"></div>
 
             <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-sm text-white/50">
                 <div class="flex items-center gap-2">
-                    <span>&copy; 2025 Vistaces.</span>
+                    <span>&copy; 2026 Vistaces.</span>
                     <span class="hidden sm:inline">·</span>
                     <span class="hidden sm:inline">All rights reserved.</span>
                     <span class="hidden md:inline text-white/30">|</span>
