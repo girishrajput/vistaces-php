@@ -2,7 +2,7 @@
 
 
 <section class="bg-[#0b2a4a] text-white py-16 relative overflow-hidden">
-    <div class="absolute inset-0 bg-cover bg-center opacity-10 mixed-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070');"></div>
+    <div class="absolute inset-0 bg-cover bg-center opacity-60 mixed-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070');"></div>
     <div class="max-w-[1500px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10 text-center space-y-2">
         <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">Insights &amp; Engineering News</h1>
         <p class="text-slate-300 max-w-md mx-auto text-sm sm:text-base">Stay updated with the latest industry compliance standards, 3D modeling breakthroughs, and project management tactics.</p>

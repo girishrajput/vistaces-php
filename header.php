@@ -30,7 +30,7 @@
                 <a href="tel:8324900982" class="text-white font-medium hover:text-blue-400 transition"><i
                         class="fa-solid fa-phone text-white mr-2"></i>(832)-490-0982</a>
                 <span class="text-white">|</span>
-                <span class="bg-blue-500/10 text-white px-2 py-0.5 rounded border border-blue-500/20 font-mono tracking-wide">24/7 Services</span>
+                <a href="mailto:info@vistaces.com" class="bg-blue-500/10 text-white px-2 py-0.5 rounded border border-blue-500/20 font-mono tracking-wide"> info@vistaces.com </a>
             </div>
 
             <div class="flex items-center space-x-6">
