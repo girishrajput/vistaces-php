@@ -130,7 +130,7 @@
 
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
                     The Vista Consulting <br class="hidden sm:inline" />
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-slate-700">Engineers
+                    <span class="text-orange-500">Engineers
                         Advantage</span>
                 </h2>
 

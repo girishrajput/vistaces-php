@@ -20,14 +20,14 @@
                 Our Story
             </div>
             <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight leading-tight">
-                Vista Consulting Engineers, LLC
+                Vista Consulting Engineers, LLC 
             </h2>
             <div class="space-y-4 text-slate-600 leading-relaxed text-justify">
                 <p>
-                    Founded in Oakland, CA, in 2018, <strong class="font-semibold text-slate-900">Vista Consulting Engineers, LLC. (VCEs)</strong> is an engineering consulting firm specializing in engineering and construction management services that provide fully integrated structural, architectural, MEP, and construction management services to clients in the construction industry worldwide.
+                   VISTACES is a multidisciplinary engineering consulting firm founded in Oakland, California, in 2018 and headquartered in Katy, Texas. We provide comprehensive civil, structural, architectural, MEP (mechanical, electrical, and plumbing), inspection, and construction management services for residential and commercial projects.
                 </p>
                 <p>
-                    Based in <strong class="font-semibold text-slate-900">Katy, Texas</strong>, we collaborate with clients on residential, commercial, and industrial construction projects across the globe. We prioritize resolving our clients' challenges through innovation, diversity of perspective, and unparalleled industry expertise.
+                   Our team is committed to delivering innovative, practical, and cost-effective engineering solutions tailored to each client’s unique needs. Through technical excellence, industry expertise, and a client-focused approach, we help transform project challenges into safe, efficient, and successful outcomes
                 </p>
             </div>
         </div>
